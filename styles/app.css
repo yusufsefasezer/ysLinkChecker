@@ -1,0 +1,121 @@
+/* General */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+}
+
+/* Header */
+
+#app-header {
+  text-align: center;
+  background: #f9f9f9;
+  display: none;
+}
+
+/* Body */
+
+#app-body {
+  font-size: 17px;
+  padding: 5px 7px;
+}
+#app-body .box {
+  border: 1px solid #dddddd;
+  padding: 5px;
+  padding-left: 30px;
+  border-radius: 3px;
+  margin: 5px;
+}
+#app-body .anchor {
+  background: #f9f9f9 url('../images/anchor.png') no-repeat 10px center;
+  width: 400px;
+}
+#app-body .row {
+  display: table;
+  width: 100%;
+}
+#app-body .row .box {
+  width: 47%;
+  font-size: 15px;
+}
+#app-body .internal {
+  float: left;
+  color: #4CAE50;
+  background: #f9f9f9 url('../images/internal.png') no-repeat 10px center;
+}
+#app-body .external {
+  float: right;
+  color: #2096F2;
+  background: #f9f9f9 url('../images/external.png') no-repeat 10px center;
+}
+#app-body .row::after {
+  clear: both;
+}
+#app-body .search {
+  float: right;
+  padding: 5px 7px;
+  cursor: pointer;
+}
+#app-body .export {
+  float: left;
+  padding: 5px 7px;
+  cursor: pointer;
+  font-size: 13px;
+  text-align: right;
+}
+#app-body .export span {
+  padding: 5px;
+}
+#app-body .export span:hover {
+  text-decoration: underline;
+}
+
+/* Search */
+
+#searchInput {
+  width: 100%;
+  padding: 8px 20px 8px 30px;
+  margin-bottom: 10px;
+  background: url('../images/search.png') no-repeat 10px center;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+}
+#linkTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #dddddd;
+  font-size: 13px;
+}
+#linkTable th, #linkTable td {
+  text-align: left;
+  padding: 3px 5px;
+}
+#linkTable tr {
+  border-bottom: 1px solid #dddddd;
+  word-wrap: break-word;
+}
+#linkTable th, #linkTable .ext {
+  background-color: #f1f1f1;
+}
+
+/* Footer */
+
+#app-footer {
+  background-color: #f9f9f9;
+  border-top: 1px solid #dddddd;
+  color: #545454;
+  width: 100%;
+  padding: 5px;
+  font-size: 11px;
+  text-align: left;
+}
+#app-footer a {
+  text-decoration: none;
+  color: inherit;
+}

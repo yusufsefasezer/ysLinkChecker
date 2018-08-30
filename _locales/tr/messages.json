@@ -1,0 +1,46 @@
+{
+  "appName": {
+    "message": "ysLinkChecker",
+    "description": "Uzantının adı."
+  },
+  "appDescription": {
+    "message": "Uzantı web sayfasındaki bağlantılarla ilgili bilgi almaya, rapor üretmeye ve arama yapmaya imkan sağlar.",
+    "description": "Uzantının açıklaması."
+  },
+  "total": {
+    "message": "Toplam bağlantılar",
+    "description": "Toplam bağlantı sayısı."
+  },
+  "internal": {
+    "message": "İç bağlantılar",
+    "description": "İç bağlantı sayısı."
+  },
+  "external": {
+    "message": "Dış bağlantılar",
+    "description": "Dış bağlantı sayısı."
+  },
+  "exportTXT": {
+    "message": "Rapor (.txt)",
+    "description": "Raporu .txt formatında indir."
+  },
+  "exportCSV": {
+    "message": "Rapor (.csv)",
+    "description": "Raporu .csv formatında indir."
+  },
+  "search": {
+    "message": "Arama yap",
+    "description": "Arama yap."
+  },
+  "reportName": {
+    "message": "rapor",
+    "description": "Rapor dosyasının adı."
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL."
+  },
+  "text": {
+    "message": "Bağlantı metni",
+    "description": "Bağlantı metni."
+  }
+}

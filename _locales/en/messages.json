@@ -1,0 +1,46 @@
+{
+  "appName": {
+    "message": "ysLinkChecker",
+    "description": "The name of the extension."
+  },
+  "appDescription": {
+    "message": "The extension allows to get information, report and search for links on the web page.",
+    "description": "The description of the extension."
+  },
+  "total": {
+    "message": "Total Links",
+    "description": "Total Links."
+  },
+  "internal": {
+    "message": "Internal Links",
+    "description": "Internal Links."
+  },
+  "external": {
+    "message": "External Links",
+    "description": "External Links."
+  },
+  "exportTXT": {
+    "message": "Export to TXT",
+    "description": "Export to TXT."
+  },
+  "exportCSV": {
+    "message": "Export to CSV",
+    "description": "Export to CSV."
+  },
+  "search": {
+    "message": "Search",
+    "description": "Search."
+  },
+  "reportName": {
+    "message": "report",
+    "description": "Name of the report file."
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL."
+  },
+  "text": {
+    "message": "Anchor text",
+    "description": "Anchor text."
+  }
+}
