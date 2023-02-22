@@ -10,10 +10,6 @@ The extension allows to get information, report and search for links on the web 
 * Browser support - It works in almost any Extensions API supported browsers.
 * i18n - You can use the extension by adding a new translation.
 
-## TODO
-
--
-
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details
 
